@@ -13,23 +13,25 @@ public class Domek
         dach.moveHorizontal(60); //przesunięcie w poziomie obiektu dach o 60 pixeli w prawo
         dach.moveVertical(70); //przesunięcie w pionie obiektu dach o 70 pixeli w dół
         Square sciana = new Square();
+        sciana.changeColor("red");
         sciana.makeVisible();
         sciana.changeSize(100);
         sciana.moveVertical(85);
         Square okno = new Square();
-        okno.makeVisible();
         okno.changeColor("black");
+        okno.makeVisible();
         okno.moveVertical(100);
         okno.moveHorizontal(20);
         Prostokat drzwi = new Prostokat();
+        drzwi.changeColor("black");
         drzwi.makeVisible();
         drzwi.changeSize(30, 60);
         drzwi.moveVertical(125);
         drzwi.moveHorizontal(60);
         Square drzewoPien = new Square();
+        drzewoPien.changeColor("black");
         drzewoPien.makeVisible();
         drzewoPien.changeSize(20);
-        drzewoPien.changeColor("black");
         drzewoPien.moveVertical(170);
         drzewoPien.moveHorizontal(170);
         Triangle drzewoBot = new Triangle();
